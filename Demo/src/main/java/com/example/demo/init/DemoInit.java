@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
-public class DBInit implements CommandLineRunner {
-    private final Logger LOGGER = LoggerFactory.getLogger(DBInit.class);
+//@Component
+public class DemoInit implements CommandLineRunner {
+    private final Logger LOGGER = LoggerFactory.getLogger(DemoInit.class);
 
     @Override
     public void run(String... args) throws Exception {
